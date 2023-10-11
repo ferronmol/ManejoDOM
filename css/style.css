@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.container {
+    background-image: url(../imagenes/fondo.jpg);
+    margin: 0 auto;
+    max-width: 1300px;
+    font-variant: small-caps;
+    font-family: tahoma;
+    width: 100%;
+}
+
+
+.header__encabezado {
+    font-size: 2.7em;
+    color: rgb(49, 190, 237);
+    text-align: center;
+}
+
+.juego {
+    font-size:1rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.juego__adivinanza,
+.juego__adivinanza-eleccion,
+.juego__respuesta-eleccion,
+.juego__respuesta {
+    width: 24%;
+}
+
+
+.juego__adivinanza-texto {
+    background-color: rgba(49, 190, 237, 0.9);
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    font-variant: small-caps;
+    margin: 0.5rem 0;
+    padding: 1rem;
+    font-size: 1rem;
+    height: 6rem;
+}
+
+.juego__adivinanza-respuesta {
+    background-color: rgba(225, 185, 234, 0.9);
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    font-variant: small-caps;
+    margin: 0.5rem 0;
+    padding: 1rem;
+    font-size: 1rem;
+    height: 6rem;
+}
+
+.footer{
+    display:flex;
+    justify-content: center;
+    margin-top: 1rem;;
+}
+
+.footer__boton--comprobar, .footer__boton--jugar {
+    font-variant: small-caps;
+    font-weight: bold;
+    width: 98%;
+    border:none;
+    border:1px solid greenyellow;
+    padding:0.5rem;
+    border-radius: 0.3rem;
+    font-size: 1.3rem;
+    color:greenyellow;
+    background:tomato;
+}
+
+.footer__boton--comprobar:hover, .footer__boton--jugar:hover {
+    color:tomato;
+    background:greenyellow;
+}
+.footer__boton--jugar{
+    display:none;
+}
+.verde {
+    background-color: rgba(0, 255, 0, 0.8);
+}
+
+.rojo {
+    background-color: rgba(255, 0, 0, 0.8);
+} 
+
+.ocultar {
+    display:none;
+} 
+.mostrar{
+    display:block
+}
+
+/* 
+img {
+    height: 35px;
+    width: 25px;
+}
+
+.adivinanza {
+    height: 825px;
+}
+
+.texto-adivinanza,
+.respuesta-adivinanza {
+    height: 90px;
+    background-color: rgba(49, 190, 237, 0.9);
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    font-variant: small-caps;
+}
+
+.respuesta-adivinanza {
+    background-color: rgba(225, 185, 234, 0.9);
+}
+
+*/
